@@ -25,8 +25,8 @@ export const Initializing = () => {
   }, []);
 
   return (
-    <div className="mx-auto w-2/3">
-      <h1 className="mb-2 text-xl font-thin">Initializing...</h1>
+    <div className="mx-auto md:w-2/3">
+      <h1 className="text-md mb-2 font-thin md:text-xl">Initializing...</h1>
       <Progress value={progress} />
     </div>
   );
