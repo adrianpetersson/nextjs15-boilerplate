@@ -1,6 +1,5 @@
 import LogoIcon from "@/public/svg/logo.svg";
-import { Initializing } from "./Initializing";
-import { Badge } from "./ui/badge";
+
 export const Hero = () => {
   return (
     <div className="gap mx-auto flex flex-col items-center gap-3 p-4 py-36">
