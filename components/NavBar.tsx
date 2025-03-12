@@ -1,4 +1,11 @@
 import LogoIcon from "@/public/svg/logo.svg";
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  SignUpButton,
+  UserButton,
+} from "@clerk/nextjs";
 
 export const NavBar = () => {
   return (
@@ -8,7 +15,15 @@ export const NavBar = () => {
         <h1 className="text-lg font-semibold">Addinator Boilerplate</h1>
       </div>
       <div className="flex items-center space-x-4">
-        {/* Add navigation links here */}
+        <header className="flex h-16 items-center justify-end gap-4 p-4">
+          <SignedOut>
+            <SignInButton />
+            <SignUpButton />
+          </SignedOut>
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
+        </header>
       </div>
     </nav>
   );
