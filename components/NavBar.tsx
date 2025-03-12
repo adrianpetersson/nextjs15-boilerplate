@@ -10,7 +10,7 @@ import { Button } from "./ui/button";
 
 export const NavBar = () => {
   return (
-    <nav className="fixed top-0 right-0 left-0 z-999 flex items-center justify-between bg-white p-4 shadow-sm">
+    <nav className="fixed top-0 right-0 left-0 z-999 mx-auto flex h-22 max-w-screen-lg items-center justify-between">
       <div className="flex items-center space-x-4">
         <LogoIcon className="h-8" alt="Logo" />
         <h1 className="text-lg font-semibold">Addinator Boilerplate</h1>

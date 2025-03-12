@@ -1,9 +1,10 @@
 import LogoIcon from "@/public/svg/logo.svg";
 import { Initializing } from "./Initializing";
+import { Badge } from "./ui/badge";
 export const Hero = () => {
   return (
-    <div>
-      <div className="gap mt-10 flex items-center p-4 md:gap-4">
+    <div className="gap mx-auto flex flex-col items-center gap-3 p-4 py-36">
+      <div className="flex gap-4">
         <LogoIcon className="hidden md:block" alt="Logo" />{" "}
         {/* Adjusted logo size */}
         <h2 className="text-center text-2xl font-bold md:text-4xl">
@@ -16,7 +17,10 @@ export const Hero = () => {
           <span className="ml-2"> boilerplate</span>
         </h2>
       </div>
-      <Initializing />
+      <p className="mt-4 text-center text-lg text-gray-700 md:text-xl">
+        A lightweight & <span className="underline">junk-free</span> Next.js
+        starter for rapid development 🚀
+      </p>
     </div>
   );
 };
