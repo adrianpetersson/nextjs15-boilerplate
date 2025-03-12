@@ -8,7 +8,7 @@ export const Hero = () => {
         {/* Adjusted logo size */}
         <h2 className="text-center text-2xl font-bold md:text-4xl">
           The Addinator<sup>™</sup>{" "}
-          <span className="relative inline-block before:absolute before:-inset-1 before:block before:-skew-x-15 before:bg-orange-500 mt-2 md:before:-inset-2">
+          <span className="relative mt-2 inline-block before:absolute before:-inset-1 before:block before:-skew-x-15 before:bg-orange-500 md:before:-inset-2">
             <span className="relative text-white dark:text-gray-950">
               Next.js 15
             </span>

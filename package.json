@@ -6,14 +6,18 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx db/migrate.ts"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.12.5",
+    "@neondatabase/serverless": "^0.10.4",
     "@radix-ui/react-progress": "^1.1.2",
     "@radix-ui/react-slot": "^1.1.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "drizzle-orm": "^0.40.0",
     "lucide-react": "^0.479.0",
     "next": "15.2.1",
     "react": "^19.0.0",
@@ -32,6 +36,8 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "dotenv": "^16.4.7",
+    "drizzle-kit": "^0.30.5",
     "eslint": "^9.22.0",
     "eslint-config-next": "^15.2.1",
     "eslint-config-prettier": "^10.1.1",
@@ -47,6 +53,7 @@
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^4",
+    "tsx": "^4.19.3",
     "typescript": "^5"
   }
 }
