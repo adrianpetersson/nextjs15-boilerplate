@@ -1,4 +1,0 @@
-{
-  "*": ["eslint --fix --no-warn-ignored"],
-  "*.{json,yaml}": ["prettier --write"]
-}
