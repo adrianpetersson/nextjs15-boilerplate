@@ -1,4 +1,3 @@
-import LogoIcon from "@/public/svg/logo.svg";
 import {
   SignedIn,
   SignedOut,
@@ -6,13 +5,16 @@ import {
   SignUpButton,
   UserButton,
 } from "@clerk/nextjs";
+
+import LogoIcon from "@/public/svg/logo.svg";
+
 import { Button } from "./ui/button";
 
 export const NavBar = () => {
   return (
     <nav className="fixed top-0 right-0 left-0 z-999 mx-auto flex h-22 max-w-screen-lg items-center justify-between">
       <div className="flex items-center space-x-4">
-        <LogoIcon className="h-8" alt="Logo" />
+        <LogoIcon alt="Logo" className="h-8" />
         <h1 className="text-lg font-semibold">Addinator Boilerplate</h1>
       </div>
       <div className="flex items-center space-x-4">

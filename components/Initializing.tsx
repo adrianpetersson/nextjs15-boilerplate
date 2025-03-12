@@ -1,12 +1,13 @@
 "use client";
 import { useEffect, useState } from "react";
+
 import { Progress } from "./ui/progress";
 
 export const Initializing = () => {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    let startTime: number | null = null;
+    let startTime: null | number = null;
     const duration = 4000;
 
     const animate = (timestamp: number) => {

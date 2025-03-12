@@ -4,7 +4,7 @@ export const Hero = () => {
   return (
     <div className="gap mx-auto flex flex-col items-center gap-3 p-4 py-36">
       <div className="flex gap-4">
-        <LogoIcon className="hidden md:block" alt="Logo" />{" "}
+        <LogoIcon alt="Logo" className="hidden md:block" />{" "}
         {/* Adjusted logo size */}
         <h2 className="text-center text-2xl font-bold md:text-4xl">
           The Addinator<sup>™</sup>{" "}
