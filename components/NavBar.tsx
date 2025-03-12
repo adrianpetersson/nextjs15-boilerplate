@@ -6,6 +6,7 @@ import {
   SignUpButton,
   UserButton,
 } from "@clerk/nextjs";
+import { Button } from "./ui/button";
 
 export const NavBar = () => {
   return (
@@ -17,8 +18,10 @@ export const NavBar = () => {
       <div className="flex items-center space-x-4">
         <header className="flex h-16 items-center justify-end gap-4 p-4">
           <SignedOut>
+            <SignUpButton>
+              <Button>Sign up</Button>
+            </SignUpButton>
             <SignInButton />
-            <SignUpButton />
           </SignedOut>
           <SignedIn>
             <UserButton />
