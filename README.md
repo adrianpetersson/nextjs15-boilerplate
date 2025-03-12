@@ -6,6 +6,8 @@ A lightweight boilerplate for building Next.js 15 applications with essential fe
 
 - **Next.js 15**: Modern React framework for building fast, scalable applications.
 - **Clerk Authentication**: Easy integration with Clerk for user authentication.
+- **Drizzle ORM**: Added Drizzle ORM for type-safe database management.  
+- **Neon Database**: Using Neon as the PostgreSQL database.  
 - **Tailwind CSS 4**: Utility-first CSS framework with tailwind-merge and animations.
 - **ShadCN**: Ready-to-use UI components for faster development.
 - **Pre-configured ESLint and Prettier**: Linting and formatting setup for clean code.
