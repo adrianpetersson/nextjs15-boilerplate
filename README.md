@@ -14,6 +14,7 @@ A lightweight boilerplate for building Next.js 15 applications with essential fe
 - **TypeScript Support**: Type-safe development with TypeScript.
 - **Husky & lint-staged**: Git hooks for pre-commit linting and formatting of staged files.
 - **Turbopack**: Fast incremental bundler for a better dev experience.
+- **Deploy using Vercel**: Fast deployment using Vercel.
 
 ## Setup
 
