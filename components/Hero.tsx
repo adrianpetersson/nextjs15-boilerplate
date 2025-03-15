@@ -4,7 +4,7 @@ import { badgeVariants } from "./ui/badge";
 
 export const Hero = () => {
   return (
-    <div className="mx-auto mb-30 flex max-w-4xl flex-col items-center gap-6 px-6 pt-30 text-center">
+    <div className="mx-auto mb-10 flex max-w-4xl flex-col items-center gap-3 pt-30 text-center md:mb-30 md:gap-6 md:px-6">
       <Link
         className={`${badgeVariants({ variant: "secondary" })} px-4 py-1`}
         href="https://github.com/adrianpetersson/nextjs15-boilerplate"
