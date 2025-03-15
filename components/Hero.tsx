@@ -1,6 +1,18 @@
+import Link from "next/link";
+
+import { badgeVariants } from "./ui/badge";
+
 export const Hero = () => {
   return (
     <div className="mx-auto mb-30 flex max-w-4xl flex-col items-center gap-6 px-6 pt-30 text-center">
+      <Link
+        className={`${badgeVariants({ variant: "secondary" })} px-4 py-1`}
+        href="https://github.com/adrianpetersson/nextjs15-boilerplate"
+        target="_blank"
+      >
+        View code on GitHub
+      </Link>
+
       <div className="flex items-center gap-6">
         <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 md:text-6xl">
           The Addinator<sup>™</sup>{" "}
