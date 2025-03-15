@@ -1,22 +1,17 @@
-import LogoIcon from "@/public/svg/logo.svg";
-
 export const Hero = () => {
   return (
-    <div className="gap mx-auto flex flex-col items-center gap-3 p-4 py-36">
-      <div className="flex gap-4">
-        <LogoIcon alt="Logo" className="hidden md:block" />{" "}
-        {/* Adjusted logo size */}
-        <h2 className="text-center text-2xl font-bold md:text-4xl">
+    <div className="mx-auto mb-30 flex max-w-4xl flex-col items-center gap-6 px-6 pt-30 text-center">
+      <div className="flex items-center gap-6">
+        <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 md:text-6xl">
           The Addinator<sup>™</sup>{" "}
-          <span className="relative mt-2 inline-block before:absolute before:-inset-1 before:block before:-skew-x-15 before:bg-orange-500 md:before:-inset-2">
-            <span className="relative text-white dark:text-gray-950">
-              Next.js 15
-            </span>
+          <span className="relative inline-block">
+            <span className="absolute inset-0 -skew-x-12 bg-gradient-to-r from-orange-500 to-red-500"></span>
+            <span className="relative px-2 text-white">Next.js 15</span>
           </span>
-          <span className="ml-2"> boilerplate</span>
-        </h2>
+          <span className="ml-2">Boilerplate</span>
+        </h1>
       </div>
-      <p className="mt-4 text-center text-lg text-gray-700 md:text-xl">
+      <p className="max-w-2xl text-lg text-gray-600 md:text-2xl">
         A lightweight & <span className="underline">junk-free</span> Next.js
         starter for rapid development 🚀
       </p>
