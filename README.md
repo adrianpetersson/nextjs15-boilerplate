@@ -18,9 +18,12 @@ A lightweight boilerplate for building Next.js 15 applications with essential fe
 
 ## Setup
 
-1. Clone the repository.
-2. Run `npm install` to install dependencies.
-3. Start development server with `npm run dev`.
+```md
+1. git clone --depth=1 https://github.com/adrianpetersson/nextjs15-boilerplate my-project-name
+2. cd my-project-name
+3. Run `npm install` to install dependencies.
+4. Start development server with `npm run dev`.
+```
 
 ## Scripts
 
