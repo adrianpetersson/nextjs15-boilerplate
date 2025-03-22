@@ -28,7 +28,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "lint-staged.config.js",
-    "app/page.tsx"
+    "app/(home)/page.tsx"
   ],
   "exclude": ["node_modules"]
 }
